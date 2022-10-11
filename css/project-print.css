@@ -1,0 +1,48 @@
+body {margin-top:0;}
+
+#absolute {margin:0 auto 0 auto;width:800px}
+
+#principal {width:800px;padding:2px;height:55px}
+#principal img {display:none}
+#principal #prim {margin-left:173px;width:400px}
+
+#menu {display:none}
+
+#conjunto {height:500px;width:800px}
+#contenido {background:black;color:white;float:left;width:600px;}
+#contenido p{text-align:justify;padding:3px;font-size:12pt}
+#noticias {background-color:white;float:right;height:500px;width:200px}
+
+#noti1 {height:200px;width:200px}
+#noti1 img {height:100px;width:150px;margin:10px 0 0 25px}
+#noti1 p {font-size:80%;text-align:left;font-style:italic;text-align:justify}
+
+#notipie img{width:150px;height:100px;margin:20px 0 0 25px;clear:both}
+
+.pie {display:none}
+
+.lista1 {font-family:curier;}
+
+.lista1 li {float:left;}
+
+.lista1 a {font-weight:bold;text-decoration:none;}
+
+.lista1, .lista1 ul, .lista1 li
+{margin:0px;padding:0px;list-style-type:none}
+
+.lista1 li a
+{color: #ffffff;padding:0 5px 0 5px;border-right:2px #ffffff outset;margin:0 2px 0 2px}
+
+.lista1 li a:hover{color: #ffff00}
+.lista1 li a:active{color:yellow;border: 1px #ffffff inset;}
+
+ul#snav { display: none}
+ul#snav li { float: none}
+
+ul#snav li a{padding:0px;margin:0px}
+
+.lista1 li:hover ul#snav{display: block;font-size: 10pt;padding-top:5px;
+position:absolute;margin-left:15px;background:red}
+
+.lista1 li:hover ul#snav li a{display: block;width: 8em;padding:3px;border-right:none}
+

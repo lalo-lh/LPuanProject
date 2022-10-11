@@ -1,0 +1,6 @@
+
+var menu_html = ' <div id="menu"><ul class="lista1"><li><a href="../index.html">Inicio</a><li><a href="../biografia/index.html">Biografia</a><li id="active"><a href="#">Banda</a><ul><li><a href="../banda/index.html">Chester</a></li><li><a href="../banda/projectlp-mike.html">Mike</a><li><a href="../banda/projectlp-joe.html">Joseph</a><li><a href="../banda/projectlp-brad.html">Brad</a><li><a href="../banda/projectlp-rob.html">Rob</a><li><a href="../banda/projectlp-dave.html">Dave</a></ul><li><a href="#">Discografia</a><ul><li><a href="../discografia/index.html">Hybrid Theory</a></li><li><a href="../discografia/projectlp-d02.html">Meteora</a><li><a href="../discografia/projectlp-d03.html">Minutes to Midnight</a></ul><li><a href="#">Multimedia</a><ul><li><a href="../multimedia/index.html">Videos</a></li><li><a href="../multimedia/projectlp-img.html">Imagenes</a></li></ul><li><a href="../form/index.html">Contactanos</a></li></ul></div>'
+
+var includ = document.  getElementById('menu_include');
+includ.innerHTML = menu_html
+console.log(includ);
